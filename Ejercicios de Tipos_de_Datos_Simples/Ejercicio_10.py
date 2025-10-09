@@ -1,0 +1,6 @@
+PesoP=int(112)
+PesoM=int(75)
+numP=int(input("Dime el numero de payaso: "))
+numM=int(input("Dime el numero de muñecas: "))
+r=(PesoP*numP)+(PesoM*numM)
+print ("El peso total del paquete es",r,"g")
