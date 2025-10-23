@@ -1,0 +1,5 @@
+cantpan=input("Cuanto pan quye no es del dia has vendido?: ")
+descuento=3.49*(60/100)
+total= float(cantpan)*float(descuento)
+print ("Ha vendido",cantpan,"que no son del dia")
+print ("La barra de pan del dia cuesta 3.49 las que no son del dia se descuenta un 60% quedando en",descuento,", en total contando con el descuento ha ganado",total)
