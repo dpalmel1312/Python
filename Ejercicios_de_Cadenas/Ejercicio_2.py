@@ -1,0 +1,7 @@
+nombre= input("Dime tu nombre completo: ")
+t1=nombre.lower()
+t2=nombre.upper()
+t3=nombre.title()
+print(t1)
+print(t2)
+print(t3)
