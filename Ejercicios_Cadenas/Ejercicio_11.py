@@ -1,0 +1,8 @@
+nom = input("dime el nombre del producto")
+pre = float(input("dime el precio del producto"))
+unid = int(input("dime las unidades"))
+cost = float(pre * unid)
+print ("El producto es: ", nom)
+print ("El precio unitario es: {:06.2f} euros".format(pre))
+print ("El número de unidades es: {:03d}".format(unid)) 
+print ("El coste total es: {:08.2f} euros".format(cost))

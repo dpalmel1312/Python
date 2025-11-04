@@ -1,0 +1,4 @@
+frase = input("Introduce una frase: ")
+vocal = input("Introduce una vocal: ")
+frasemod = frase.replace(vocal,vocal.upper())
+print(frasemod)
