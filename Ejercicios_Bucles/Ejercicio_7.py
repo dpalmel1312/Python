@@ -1,4 +1,3 @@
-for i in range(1,11):
-    print("Tabla del ", i)
-    for j in range(1,11):
-        print(i, " x ", j, " = ", i*j)
+numeroentero = int(input("Introduce un número entero positivo: "))
+for i in range(1, numeroentero + 1):
+    print(' ' * (numeroentero - i) + '*' * i)
