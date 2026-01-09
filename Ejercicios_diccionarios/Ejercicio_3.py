@@ -5,8 +5,8 @@ dic={
     'Naranja' : 0.70
 }
 
-pre=input("Dime una fruta")
-kilos=print("Dime los kilos que quieres")
+pre=input("Dime una fruta: ")
+kilos=float(input("Dime los kilos que quieres: "))
 if pre in dic:
     ktotal=dic[pre]*kilos
     print(f"El precio es {ktotal}")
