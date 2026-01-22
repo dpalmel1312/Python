@@ -1,7 +1,7 @@
 dic={}
-elec=1
+elec="1"
 total=float(0)
-while elec==1:
+while elec=="1":
     art=input("Dime el nombre del articulo: ")
     precio=float(input("Dime el precio: "))
     dic.update({art:precio})
